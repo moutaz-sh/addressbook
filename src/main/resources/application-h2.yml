@@ -1,0 +1,14 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  data:
+    rest:
+      default-page-size: 2147483647
+  jpa:
+    hibernate:
+      ddl-auto: create
+      show-sql: true
+
+  jmx:
+    enabled: false

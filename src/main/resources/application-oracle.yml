@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    username:
+    password:
+    url:
+    driver-class-name:
+    tomcat.max-active: 5
+    tomcat.initial-size: 3
+    tomcat.max-idle: 3
+    tomcat.min-idle: 1
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+
+
+  data:
+    rest:
+      default-page-size: 2147483647
+
+    web:
+      pageable:
+        default-page-size: 2147483647
+        max-page-size: 2147483647
+
+  jmx:
+    enabled: false
